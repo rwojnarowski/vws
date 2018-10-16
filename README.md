@@ -1,4 +1,7 @@
-(start preparing for next version)
+## Forked repository changes
++ Added **require 'open-uri'** to allow work with ActiveStorage remote service_url
++ Updated **"rest-client"** to **"~> 2.0.2"**. It fixes some bug i've encountered:
+> NoMethodError (undefined method `response' for #<KeyError: key not found: :ciphers>)
 
 # Vws (Vuforia Web Services ruby gem for API access for target management)
 
